@@ -1,0 +1,35 @@
+{
+  "name": "genie-router-plugin-rivescript",
+  "version": "1.0.0",
+  "description": "A genie-router brain plugin that allows the user to use rivescript as the chat engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matueranet/genie-router-plugin-rivescript.git"
+  },
+  "keywords": [
+    "genie-router",
+    "plugin",
+    "superplug",
+    "rivescript",
+    "chat",
+    "ai",
+    "bot",
+    "chatbot"
+  ],
+  "author": "matueranet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matueranet/genie-router-plugin-rivescript/issues"
+  },
+  "homepage": "https://github.com/matueranet/genie-router-plugin-rivescript#readme",
+  "dependencies": {
+    "rivescript": "^1.17.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
