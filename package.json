@@ -27,9 +27,13 @@
   },
   "homepage": "https://github.com/matueranet/genie-router-plugin-rivescript#readme",
   "dependencies": {
+    "debug": "^3.1.0",
     "rivescript": "^1.17.2"
   },
   "devDependencies": {
     "standard": "^10.0.3"
+  },
+  "genieRouterPlugin": {
+    "name": "rivescript"
   }
 }
