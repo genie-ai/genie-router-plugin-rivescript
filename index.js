@@ -1,5 +1,5 @@
-let brain = require('./lib/brain')
+const brain = require('./lib/brain');
 
 module.exports = {
-  brain: brain
-}
+    brain,
+};

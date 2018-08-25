@@ -1,14 +1,14 @@
 {
-  "name": "genie-router-plugin-rivescript",
-  "version": "1.0.0",
+  "name": "@genie-ai/genie-router-plugin-rivescript",
+  "version": "2.0.0",
   "description": "A genie-router brain plugin that allows the user to use rivescript as the chat engine.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matueranet/genie-router-plugin-rivescript.git"
+    "url": "git+https://github.com/genie-ai/genie-router-plugin-rivescript.git"
   },
   "keywords": [
     "genie-router",
@@ -20,20 +20,27 @@
     "bot",
     "chatbot"
   ],
+  "engines": {
+    "node": ">=8.10"
+  },
   "author": "matueranet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matueranet/genie-router-plugin-rivescript/issues"
+    "url": "https://github.com/genie-ai/genie-router-plugin-rivescript/issues"
   },
-  "homepage": "https://github.com/matueranet/genie-router-plugin-rivescript#readme",
+  "homepage": "https://github.com/genie-ai/genie-router-plugin-rivescript#readme",
   "dependencies": {
     "debug": "^3.1.0",
+    "pify": "^4.0.0",
     "rivescript": "^1.17.2"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.9.0"
   },
   "genieRouterPlugin": {
-    "name": "rivescript"
+    "name": "rivescript",
+    "apiVersion": "1.0.0"
   }
 }
